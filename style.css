@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  overflow-x: hidden;
+}
+body{
+    width: 98%;
+    /* height: 100%; */
+    margin: .5rem auto;
+    background-color: rgba(119, 136, 153, 0.205) ;
+    box-shadow: 1rem 1rem 3rem rgba(119, 136, 153, 0.774) ;
+    /* border: .05rem solid rgba(119, 136, 153, 0.63); */
+    border-radius: .5rem;
+}
+.aquariam{
+    width: 100vw;
+    /* height: 100vh; */
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.75)),url(./images/aquariam1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.aquariam .divBtn{
+    color: rgba(255, 228, 196, 0.691);
+    font-size: 2rem;
+    margin: 20rem auto;
+    cursor: pointer;
+    transition: color .5s ease-in-out;
+}
+.divBtn:hover{
+    color: rgb(186, 204, 226);
+}
+.aqua{
+    /* position: absolute; */
+    width: 50vw;
+    margin: 1.5rem auto;
+    padding: 1.5rem  1rem ;
+    padding-bottom: 0rem;
+    background-color: rgba(0, 0, 255, 0.089);
+    cursor: pointer;
+}
+.heading{
+    margin: 1.2rem auto;
+    margin-top: 3.5rem;
+      font-size: 3.5rem;
+      color: bisque;
+      letter-spacing: .1rem;
+      font-weight: bold;
+      text-transform: uppercase;
+}
+.about{
+    margin: 1rem .1rem .5rem 1.5rem;
+  font-size: 1.8rem;
+  color: burlywood;
+  letter-spacing: .2rem;
+  text-transform: capitalize;
+
+}
+.info{
+    width: 30vw;
+    margin: 3rem  auto 2rem auto;
+     line-height: 1.8rem;
+     color: rgb(186, 204, 226);
+     font-size: 1.3rem;
+     letter-spacing: .1rem;
+    transition: color .5s ease-out;     
+}
+.aqua .info:hover {
+    color: rgb(251, 235, 235);
+}
+.btn-link .btn{
+    margin: .2rem auto;
+    /* margin-left: .5rem; */
+     padding: .5rem 1rem;
+     background-color:rgba(211, 211, 211, 0.171);
+   outline: none;
+   border: .1rem solid lightslategrey;
+   border-radius: .5rem;
+   cursor: pointer;
+   transition:  .5s ease-in-out;
+}
+.btn{
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(246, 185, 163);
+    /* color:rgba(255, 166, 0, 0.938); */
+}
+.btn:hover{
+     background-color:lightslategray;
+    color: lightyellow;
+ }
+.pageNum{
+    margin-top: 5.5rem;
+    font-size: 2.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: lightslategrey;
+}
+  /* SECTION--REVIEW */
+.fishreview{
+    width: 100vw;
+    margin: 0.1rem auto;
+    /* height: 100vh; */
+    background-color: #2222222a;
+}
+.fishreview h2{
+    margin: 1rem auto .1rem auto;
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.fishreview .ul{
+    margin: .1rem auto;
+    width: 12.5vw;
+    height: .25vw;
+    background-color: darkcyan;
+    transition: .4s ease-in-out;
+}
+.fishreview:hover .ul:hover{
+    background-color: crimson;
+}
+.fishreview .all{
+    width: 50vw;
+    margin: .5rem auto 1rem auto;
+    /* background-color: lightgray; */
+    background-color: rgba(0, 139, 139, 0.048);
+    box-shadow:  0.2rem .2rem 1rem rgba(34, 34, 34, 0.486);
+    border-radius: .2rem;
+    text-align: center;
+    transition: background-color 1s ease-in-out;
+    cursor: pointer;
+}
+.fishreview .all:hover{
+     background-color: rgba(34, 34, 34, 0.102);
+}
+.fishreview img{
+    /* width: 255px; */
+    height: 140px;
+    border-radius: 15%;
+    margin:1.5rem auto .5rem auto;
+    object-fit: contain;
+}
+.fishreview .heading{
+    margin: 0 auto .3rem auto;
+    font-size: 1.5rem;
+    /* color: rgba(220, 20, 60, 0.856); */
+    color: orangered;
+    font-weight: bolder;
+}
+.fishreview h3{
+    margin: auto;
+    font-size: .95rem;
+}
+.fishreview .about{
+     margin: 0rem auto .8rem auto;
+     font-size: 1rem;
+     font-weight: bold;
+     /* color: darkslategray; */
+     color: darkcyan;
+    /* color: rgba(220, 20, 60, 0.856); */
+     font-style: italic;
+}
+.fishreview .info{
+    /* width:50vw ; */
+    margin: 0 auto .5rem auto;
+    font-size: 1rem;
+    color: #222;
+}
+.fishreview .moreBtn, #btnCh{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-size: .95rem;
+    font-weight: bolder;
+    background:transparent;
+    /* color: rgb(113, 153, 113); */
+    color: rgba(220, 20, 60, 0.863);
+    cursor: pointer;
+    transition: color .5s ease-in-out;
+}
+.fishreview .moreBtn:hover , .fishreview #btnCh:hover{
+    color: darkslategrey;
+}
+.btns{
+    /* width: 15vw; */
+    margin: 1rem auto .5rem auto;
+    /* border-bottom: .05rem solid #222; */
+}
+.btns span{
+     margin: .2rem 1.5rem .1rem 1.5rem;
+     background-color: transparent;
+     font-size: 1.3rem;
+     color: rgba(34, 34, 34, 0.883);
+     cursor: pointer;
+     transition: color .5s ease-out;
+     
+}
+.btns span:hover{
+     color: whitesmoke;
+}
+.button{
+    margin: .1rem auto 1rem auto;
+    padding: .5rem .8rem;
+    font-size: 1.05rem;
+    font-weight: bolder;
+    outline: none;
+    background-color: rgba(32, 178, 171, 0.061);
+    border: .1rem solid rgba(34, 34, 34, 0.191) ;
+    border-radius: .5rem;
+   text-transform: uppercase;
+   color: #000;
+   cursor: pointer;
+   transition: .4s ease-in;
+}
+.button:hover{
+    background-color: rgba(15, 85, 85, 0.911);
+    color: whitesmoke;
+}
